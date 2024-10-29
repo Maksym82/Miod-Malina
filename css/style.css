@@ -57,7 +57,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-block: 64px;
+  padding-block: 7.76699svh; /* 64/824 */
   row-gap: 15.54svh;
 }
 .hero__header {
