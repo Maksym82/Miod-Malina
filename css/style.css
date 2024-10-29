@@ -77,8 +77,10 @@ body {
 }
 .menu__list {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   column-gap: 16px;
-  row-gap: 5px;
+  row-gap: 15px;
 }
 .menu__item {
 }
@@ -120,8 +122,12 @@ body {
   object-fit: cover;
 }
 
-@media (max-width: 767.98) {
+@media (max-width: 767.98px) {
   .hero__title {
     font-size: 66px;
+  }
+
+  .menu__link {
+    font-size: 20px;
   }
 }
