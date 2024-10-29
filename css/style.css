@@ -5,6 +5,43 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+[class*='__container'] {
+    max-width: 1054px;
+    padding-inline: 15px;
+    margin: 0 auto;
+}
 
+.wrapper {
+    min-height: 100%;
+}
+
+.hero {
+}
+.hero__container {
+}
+.hero__header {
+}
+.hero__logo {
+}
+.hero__menu {
+}
+.menu {
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+}
+.hero__content {
+}
+.hero__title {
+}
+.hero__labal {
+}
+.hero__button {
+}
+.hero__image {
+}
 
 
