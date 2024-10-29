@@ -64,6 +64,7 @@ body {
 
 .header-block__text {
   letter-spacing: 0.8px;
+  line-height: 1.2;
   text-transform: uppercase;
 }
 
@@ -75,10 +76,16 @@ body {
   .header-block__title {
     font-size: 46px;
   }
+  .header-block::after {
+    margin-top: 16px;
+  }
+  .header-block__text {
+   font-size: 14px;
+  }
 }
 
 /* ----------------- */
-
+/* Hero */
 .wrapper {
   min-height: 100%;
 }
@@ -211,5 +218,19 @@ body {
 }
 
 .about__button {
+}
+
+@media (max-width: 767.98px) {
+  .about__text {
+    font-size: 16px;
+  }
+
+  .about__text:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  .about__header {
+    margin-bottom: 16px;
+  }
 }
 /* --------------- */
