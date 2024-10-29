@@ -17,6 +17,7 @@ html,
 body {
     min-width: 320px;
     height: 100%;
+    line-height: 1;
 }
 
 a {
