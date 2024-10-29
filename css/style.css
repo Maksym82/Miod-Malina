@@ -27,6 +27,37 @@ body {
   }
 }
 
+.header-block {
+  text-align: center;
+}
+
+.header-block::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  background-color: #d8ae5e;
+  margin-top: 32px;
+}
+
+.header-block__title {
+  font-family: "Bodoni 72", serif;
+  text-transform: uppercase;
+  font-size: 64px;
+}
+
+.header-block__title:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.header-block__text {
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.header-block__text p:not(:last-child) {
+  margin-bottom: 5px;
+}
+
 /* ----------------- */
 
 .wrapper {
@@ -103,6 +134,7 @@ body {
 .hero__title {
   font-family: "Bodoni 72", serif;
   font-size: 96px;
+  text-transform: uppercase;
 }
 
 .hero__labal {
