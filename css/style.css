@@ -85,11 +85,10 @@ body {
 }
 
 /* ----------------- */
-/* Hero */
 .wrapper {
   min-height: 100%;
 }
-
+/* Hero */
 .hero {
   position: relative;
   color: #fff;
