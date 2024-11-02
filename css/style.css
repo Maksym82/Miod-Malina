@@ -235,7 +235,7 @@ body {
 /* --------------- */
 
 /* Activities */
-.activities {
+/* .activities {
   background-color: #f4f4f4;
 }
 .activities__container {
@@ -271,6 +271,7 @@ body {
   flex-grow: 1;
 }
 .item-activities__icon {
+  max-width: 100%;
 }
 
 .item-activities__image:not(:last-child) {
@@ -283,4 +284,101 @@ body {
 .activities__link {
   padding-bottom: 8px;
   border-bottom: 1px solid #d8ae5e;
+  transition: all 0.3s;
+} */
+
+/* ------ */
+.activities {
+  background-color: #f4f4f4;
+}
+.activities__container {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: center;
+}
+.activities__header {
+}
+
+.activities__items {
+  max-width: 930px;
+  margin: 0 auto;
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 128px;
+  row-gap: 96px;
+}
+.activities__item {
+  text-align: center;
+  flex: 0 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.item-activities {
+}
+.item-activities__image {
+  flex-grow: 1;
+}
+.item-activities__icon {
+  max-width: 100%;
+}
+.item-activities__image:not(:last-child) {
+  margin-bottom: 16px;
+}
+.item-activities__label {
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.activities__link {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #d8ae5e;
+  transition: all 0.3s;
+}
+@media (any-hover: hover) {
+  .activities__link:hover {
+    border-bottom: 1px solid #000;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .activities__items {
+    row-gap: 50px;
+    column-gap: 80px;
+  }
+  .activities__container {
+    gap: 44px;
+  }
+}
+@media (max-width: 767.98px) {
+  .activities__items {
+    row-gap: 30px;
+    column-gap: 50px;
+  }
+  .activities__container {
+    gap: 32px;
+  }
+}
+@media (max-width: 430px) {
+  .activities__items {
+    justify-content: flex-start;
+    row-gap: 25px;
+    column-gap: 20px;
+  }
+  .activities__item {
+    text-align: left;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 20px;
+    flex: 1 1 100%;
+  }
+  .item-activities__image {
+    flex: 0 0 60px;
+  }
+  .item-activities__image:not(:last-child) {
+    margin-bottom: 0px;
+  }
 }
