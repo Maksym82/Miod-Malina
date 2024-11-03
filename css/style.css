@@ -247,59 +247,6 @@ body {
 /* --------------- */
 
 /* Activities */
-/* .activities {
-  background-color: #f4f4f4;
-}
-.activities__container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 64px;
-}
-.activities__header {
-}
-.activities__items {
-  max-width: 930px;
-  margin: 0 auto;
-  align-self: stretch;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  column-gap: 128px;
-  row-gap: 96px;
-}
-
-.activities__item {
-  text-align: center;
-  flex: 0 1 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.item-activities {
-}
-
-.item-activities__image {
-  flex-grow: 1;
-}
-.item-activities__icon {
-  max-width: 100%;
-}
-
-.item-activities__image:not(:last-child) {
-  margin-bottom: 16px;
-}
-.item-activities__label {
-  letter-spacing: 1px;
-  font-size: 20px;
-}
-.activities__link {
-  padding-bottom: 8px;
-  border-bottom: 1px solid #d8ae5e;
-  transition: all 0.3s;
-} */
-
-/* ------ */
 .activities {
   background-color: #f4f4f4;
 }
