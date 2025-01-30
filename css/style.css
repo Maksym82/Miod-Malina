@@ -565,7 +565,10 @@ body {
   left: 75%;
   display: none;
   cursor: pointer;
-  opacity: 0.6;
+  background-color: antiquewhite;
+  border-radius: 50%;
+  padding: 5px;
+  opacity: 0.8;
 }
 
 .scroll-up {
