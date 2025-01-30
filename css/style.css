@@ -557,3 +557,17 @@ body {
     gap: 32px;
   }
 }
+
+/* Scroll up */
+#scrollToTop {
+  position: fixed;
+  bottom: 40px;
+  left: 75%;
+  display: none;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.scroll-up {
+  fill: #d8ae5e;
+}
