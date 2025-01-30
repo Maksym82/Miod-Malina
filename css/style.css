@@ -562,15 +562,27 @@ body {
 #scrollToTop {
   position: fixed;
   bottom: 40px;
-  left: 75%;
+  left: 73%;
   display: none;
   cursor: pointer;
-  background-color: antiquewhite;
+  background-color: rgb(199, 188, 173);
   border-radius: 50%;
-  padding: 5px;
+  padding: 10px;
   opacity: 0.8;
 }
 
+@media (min-width: 768px) {
+  #scrollToTop {
+    left: 80%;
+  }
+}
+
+@media (min-width: 1440px) {
+  #scrollToTop {
+    left: 77%;
+  }
+}
+
 .scroll-up {
-  fill: #d8ae5e;
+  fill: #674a11;
 }
